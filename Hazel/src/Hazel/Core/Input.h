@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Hazel/Core.h"
+#include "Hazel/Core/Core.h"
 
 namespace Hazel {
 
@@ -28,5 +28,4 @@ namespace Hazel {
 	private:
 		static Scope<Input> s_Instance;
 	};
-
 }
